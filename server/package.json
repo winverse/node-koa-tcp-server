@@ -4,10 +4,11 @@
   "main": "server.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev server.ts"
+    "dev:server": "ts-node-dev tcp-server.ts"
   },
   "devDependencies": {
     "@types/koa": "^2.13.1",
+    "@types/koa-bodyparser": "^4.3.0",
     "@types/koa-router": "^7.4.2",
     "@types/koa-send": "^4.1.2",
     "@types/koa-websocket": "^5.0.5",
@@ -25,8 +26,8 @@
   "dependencies": {
     "@types/koa-static": "^4.0.1",
     "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
     "koa-router": "^10.0.0",
-    "koa-send": "^5.0.1",
     "koa-static": "^5.0.0",
     "koa-websocket": "^6.0.0"
   }
